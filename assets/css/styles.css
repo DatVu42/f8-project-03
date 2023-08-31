@@ -58,6 +58,9 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .logo {
@@ -111,7 +114,7 @@ a {
 }
 
 .navbar__link,
-.action__login {
+.header-action__login {
   color: #c9d2da;
   font-size: 1.6rem;
   font-weight: 300;
@@ -139,9 +142,19 @@ a {
 }
 
 /* action */
-.action__signup {
+.header-action {
+  display: flex;
+}
+
+.header-action__login {
+  margin-right: 7px;
+}
+
+.header-action__signup {
   min-width: 104px;
   line-height: 44px;
   font-size: 1.6rem;
   border-radius: 22px;
 }
+
+/* hero */
