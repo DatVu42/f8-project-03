@@ -61,6 +61,7 @@ a {
   font-weight: 300;
   line-height: 1.66;
   margin-top: 18px;
+  width: 468px;
 }
 
 /* ========== Header ========== */
@@ -249,7 +250,6 @@ a {
 }
 
 .service__desc {
-  width: 468px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -320,4 +320,55 @@ a {
   font-weight: 300;
   line-height: 1.75;
   margin-top: 8px;
+}
+
+/* ========== Work ========== */
+.work {
+  padding: 100px 0;
+  background: #F6FBFF;
+}
+
+.work__list {
+  margin-top: 86px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+}
+
+.work-item {
+  border: 16px solid #EAF6FF;
+  border-radius: 4px;
+  background: #FFF;
+  padding: 43px;
+}
+
+.work-item:hover {
+  border-color: var(--secondary-color);
+  transition: .25s;
+  transform: translateY(-16px);
+}
+
+.work-item__heading {
+  margin-top: 18px;
+  color: var(--primary-color);
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 1.38;
+}
+
+.work-item__desc {
+  margin-top: 28px;
+  color: var(--text--color);
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.75;
+}
+
+.work-item__more {
+  display: inline-block;
+  margin-top: 18px;
+  color: var(--secondary-color);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75;
 }
