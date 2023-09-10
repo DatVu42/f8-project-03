@@ -504,3 +504,45 @@ a {
   font-weight: 300;
   line-height: 1.85;
 }
+
+/* ========== Install ========== */
+.install {
+  padding: 85px 0;
+}
+
+.install__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 70px;
+  background: var(--secondary-color);
+  margin-top: 95px;
+  border-radius: 4px;
+}
+
+.install__img {
+  display: block;
+  width: 284px;
+  height: 522px;
+  object-fit: cover;
+  margin-top: -95px;
+}
+
+.install__heading,
+.install__desc {
+  color: #fff;
+}
+
+.install__heading {
+  width: 489px;
+}
+
+.install__desc {
+  width: 586px;
+}
+
+.install__row {
+  display: flex;
+  column-gap: 28px;
+  margin-top: 38px;
+}
