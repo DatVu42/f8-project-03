@@ -90,6 +90,10 @@ a {
   cursor: pointer;
 }
 
+.section-control__btn-right {
+  rotate: 180deg;
+}
+
 /* ========== Header ========== */
 /* logo */
 .header {
