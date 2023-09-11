@@ -65,9 +65,7 @@ a {
 }
 
 .section-control {
-  margin-top: 38px;
   display: flex;
-  justify-content: center;
   column-gap: 18px;
 }
 
@@ -505,6 +503,11 @@ a {
   line-height: 1.85;
 }
 
+.member__control {
+  margin-top: 38px;
+  justify-content: center;
+}
+
 /* ========== Install ========== */
 .install {
   padding: 85px 0;
@@ -545,4 +548,39 @@ a {
   display: flex;
   column-gap: 28px;
   margin-top: 38px;
+}
+
+/* ========== News ========== */
+.news {
+  padding: 85px 0;
+}
+
+.news__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.news__heading {
+  max-width: 470px;
+}
+
+.news__more {
+  display: inline-block;
+  margin: 28px 0;
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.55;
+  text-decoration-line: underline;
+  text-underline-offset: 5px;
+}
+
+.news__list {
+  display: flex;
+  max-width: 570px;
+}
+
+.news-item {
+  
 }
