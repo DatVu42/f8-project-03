@@ -107,7 +107,7 @@ a {
     display: flex;
 }
 
-.action__login,
+.header-action__login,
 .navbar__link {
     display: flex;
     align-items: center;
@@ -132,12 +132,12 @@ a {
     margin-right: 11px;
 }
 
-.action {
+.header-action {
     display: flex;
     align-items: center;
 }
 
-.action__signup {
+.header-action__signup {
     padding: 11px 16px;
     min-width: 104px;
     font-size: 1.6rem;
