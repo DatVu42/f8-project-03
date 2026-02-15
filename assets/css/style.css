@@ -63,6 +63,13 @@ a {
     margin-top: 18px;
 }
 
+.section-desc-lv2 {
+    color: #575F66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
+}
+
 /* ========== Header ========== */
 .header {
     background-color: var(--color-layout-bg);
@@ -299,9 +306,7 @@ a {
 }
 
 .service-item__desc {
-    color: #575F66;
-    font-size: 1.6rem;
-    font-weight: 300;
-    line-height: 1.75;
     margin-top: 8px;
 }
+
+/* ========== Work ========== */
