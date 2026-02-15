@@ -305,12 +305,6 @@ a {
     margin-left: 19px;
 }
 
-.service-item__heading {
-    color: var(--color-layout-bg);
-    font-size: 1.8rem;
-    font-weight: 600;
-}
-
 .service-item__desc {
     margin-top: 8px;
 }
