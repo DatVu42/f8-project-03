@@ -354,3 +354,46 @@ a {
     margin-top: 18px;
     transition: .25s;
 }
+
+/* ========== Feature ========== */
+.feature {
+    margin-top: 85px;
+    padding: 85px 0;
+}
+
+.feature__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature__media {
+    position: relative;
+    padding: 0 58px 121px 0;
+}
+
+.feature__img {
+    height: 370px;
+    width: 512px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.feature__img:first-child {
+    box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.07);
+}
+
+.feature__img:last-child {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 332px;
+}
+
+.feature__content {
+    width: 40.17%;
+}
+
+.feature__cta {
+    margin-top: 38px;
+}
