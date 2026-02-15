@@ -28,6 +28,7 @@ a {
 }
 
 .btn {
+    display: inline-block;
     font-family: inherit;
     color: #fff;
     text-align: center;
@@ -45,11 +46,21 @@ a {
     opacity: .9;
 }
 
-.desc {
+.section-heading {
+    color: var(--color-layout-bg);
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+.section-desc {
     color: #575F66;
     font-size: 1.8rem;
     font-weight: 300;
     line-height: 1.67;
+    width: 468px;
+    margin-top: 18px;
 }
 
 /* ========== Header ========== */
@@ -212,4 +223,85 @@ a {
 .hero__img:last-child {
     width: 210px;
     height: 410px;
+}
+
+/* ========== Service ========== */
+.service {
+    padding: 170px 0;
+}
+
+.service__heading,
+.service__desc {
+    text-align: center;
+}
+
+.service__desc {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.service__img {
+    width: 570px;
+    height: 570px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.service__list {
+    margin-bottom: 55px;
+}
+
+.service-item {
+    display: flex;
+    width: 470px;
+    padding: 21px;
+    transition: .25s;
+}
+
+.service-item:hover {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.05);
+}
+
+.service-item:hover .service-item__icon {
+    background-color: #2E80CE;
+    color: #fff;
+}
+
+.service-item__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #EFF6FD;
+    transition: .25s;
+}
+
+.service-item__body {
+    margin-left: 19px;
+}
+
+.service-item__heading {
+    color: var(--color-layout-bg);
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.service-item__desc {
+    color: #575F66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
+    margin-top: 8px;
 }
