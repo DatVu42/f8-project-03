@@ -78,9 +78,7 @@ a {
 
 .control {
     display: flex;
-    justify-content: center;
     column-gap: 18px;
-    margin-top: 38px;
 }
 
 .control__btn {
@@ -488,6 +486,11 @@ a {
     line-height: 1.86;
 }
 
+.member__control {
+    justify-content: center;
+    margin-top: 38px;
+}
+
 /* ========== Install ========== */
 .install {
     padding: 85px 0;
@@ -532,3 +535,5 @@ a {
     column-gap: 18px;
     margin-top: 38px;
 }
+
+/* ========== News ========== */
